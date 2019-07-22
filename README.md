@@ -10,11 +10,12 @@
     "password":"1234",
     "age":"25"
   }
+  
   删除
   DELETE /db/user/1
 
   修改
-  PUT /db/user/2
+  PUT /db/user/1
   {
     "username": "sun",
     "password": "123456",
@@ -22,7 +23,7 @@
   }
   
   查询
-  GET /db/user/2
+  GET /db/user/1
 
 
   过滤查询
